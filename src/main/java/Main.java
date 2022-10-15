@@ -16,9 +16,11 @@ public class Main
 	public static Status checkPassword(String password)
 	{
 		int length = password.length();
-		if(length <6 || length >12)
-			return Status.INVALID;
+		Status status;
+		if (length < 6 || length > 12)
+			status = Status.INVALID;
 		else
-			return Status.VALID;
+			status = Status.VALID;
+		return status;
 	}
 }

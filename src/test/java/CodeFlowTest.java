@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
  * @author Nguyen Van Linh
  * @version 1.0
  */
-public class EquivalencePartitioningTest
+public class CodeFlowTest
 {
 	@Test
 	public void test1()
@@ -23,13 +23,6 @@ public class EquivalencePartitioningTest
 	public void test2()
 	{
 		String password = "1234";
-		Assertions.assertEquals(Main.checkPassword(password), Main.Status.INVALID);
-	}
-
-	@Test
-	public void test3()
-	{
-		String password = "123456789101112";
 		Assertions.assertEquals(Main.checkPassword(password), Main.Status.INVALID);
 	}
 }
