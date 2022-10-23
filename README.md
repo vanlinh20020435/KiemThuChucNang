@@ -2,7 +2,8 @@
 -	Phần Test gồm 3 file:  
 &ensp;BoundaryValueAnalysisTest.java: Kiểm thử giá trị biên  
 &ensp;EquivalencePartitioningTest.java: Kiểm thử phân vùng tương đương  
-&ensp;CodeFlowTest.java: Kiểm thử dòng điều khiển
+&ensp;CodeFlowTest.java: Kiểm thử dòng điều khiển  
+&ensp;DataFlowTest.java: Kiểm thử dòng dữ liệu
 -	Để có thể chạy thử Unit Test:  
 &ensp;Cách 1: Mở suorce code bằng 1 IDE hỗ trợ như intelij và chạy  
 &ensp;Cách 2: Chạy bằng Command Line  
